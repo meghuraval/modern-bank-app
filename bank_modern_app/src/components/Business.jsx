@@ -8,7 +8,7 @@ import Button from "./Button";
 const FeatureCard = ({ icon, title, content, index }) => {
   return (
     <div
-      className={`flex flex-row p-6 rounded-[20px] ${
+      className={`flex flex-row p-6 rounded-[20px] hover:scale-95 transition duration-300 ${
         index !== features.length - 1 ? "mb-6" : "mb-0"
       } feature-card`}
     >

@@ -16,13 +16,14 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">20%</span> Discount for{" "}
+            <span className="text-white">20%</span>{" "}
+            <span className="text-yellow-300">discount </span>for a{" "}
             <span className="text-white">1 month</span> Account
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] ml-10">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] ml-3">
             The Next <br className="sm:block hideen" />{" "}
             <span className="text-gradient">Generation</span>
           </h1>
@@ -31,10 +32,10 @@ const Hero = () => {
             <GetStarted />
           </div>
         </div>
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full ml-10">
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full ml-3">
           Payment Method
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5 ml-10`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 ml-3`}>
           Our team of experts uses a methodology to identify the credit cards
           most likely to fit into your needs. We examine annual percentage
           rates, annual fees.
