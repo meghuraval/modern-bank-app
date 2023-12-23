@@ -1,8 +1,14 @@
 const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
-  heading2:
-    "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading2: {
+    fontFamily: "Poppins",
+    fontWeight: "600",
+    fontSize: "40px",
+    color: "white",
+    lineHeight: "66.8px",
+    width: "100%", // Assuming you want the heading to take the full width
+  },
   paragraph:
     "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
